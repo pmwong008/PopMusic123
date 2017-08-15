@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6F54B9</color>
+    <color name="colorPrimaryDark">#308F5F</color>
+    <color name="colorAccent">#FF908f</color>
+    <color name="playlistItem">#CCEEAA</color>
+    <color name="songItem">#FFDDDD</color>
+</resources>

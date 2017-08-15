@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pop Music 123</string>
+    <string name="music_library">Music Library</string>
+    <string name="radio_station">Radio Station</string>
+    <string name="search_music_library">Search Music Library</string>
+    <string name="search_radio_station">Search Radio Station</string>
+    <string name="my_music_collection">My Music Collection</string>
+    <string name="go_to_my_collection">Go to my collection</string>
+    <string name="add_to_my_collection">Add to my collection</string>
+    <string name="music_player">Music Player</string>
+    <string name="play_now">Play Now</string>
+    <string name="playlist">Playlist</string>
+    <string name="payment">Payment</string>
+    <string name="search_result_item">Search Result Item</string>
+    <string name="playlist_item">Playlist Item</string>
+    <string name="remove_from_list">Remove from list</string>
+    <string name="radio_station_history">Radio Station History</string>
+    <string name="display_current_search_options">Display Current Search Options</string>
+    <string name="resume_player">Resume Player</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="subscribe_pop_music123">Pay to Subscribe</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="show_playlist">Go To Playlist</string>
+    <string name="back_to_home">Back To Home</string>
+
+    <string name="main_activity_description">This is the main screen where the experience begins.
+        Users can choose to start with a search from the Music Library or from a directory of Radio Stations. It also provides navigation buttons to MyCollection and Payment screens.</string>
+    <string name="music_library_activity_description">This screen comprises of a search bar and an expandable list of search results.
+        Each search result comes along with a PLAY button and an ADD button. External database to be used is MusicFeedz.
+        The service\'s architecture follows the REST design principles. Interaction with the web service is done using HTTP, and all content is served in a simple but flexible XML format.</string>
+    <string name="radio_station_activity_description">User can get stations by keyword or genre search. The lower half of the screen is a scrollable record of previously visited stations.
+        External library to be used is SHOUTcast Radio. An API Development key is required for setup. Optional parameters can be found in their documentation online.</string>
+    <string name="player_activity_description">This Player Screen shows the now-playing song details with a time bar, a pause button, and allows the user to:
+        1) add the current song to MyCollection;
+        2) go to MyCollection screen;
+        3) go to the subscription screen;
+        4) navigate back to home screen for a new search.</string>
+    <string name="my_collection_activity_description">This screen stores selected search results, and user can remove or play a selected item.</string>
+    <string name="payment_activity_description">The app follows the free-trial-then-go-subscribed market trend. This page facilitates subscription through PayPal.
+        The setup of such requires a PayPal account. The service creates and customizes payment buttons. Each button comes as an HTML code snippet that can be copied and pasted to here.</string>
+
+
+
+</resources>

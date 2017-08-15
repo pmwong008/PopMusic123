@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:id="@+id/main_activity_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomTextSmall"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/search_music_library"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:drawableTop="@drawable/search"
+        android:text="@string/music_library"/>
+    <Button
+        android:id="@+id/search_radio_station"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:drawableTop="@drawable/search"
+        android:text="@string/radio_station"/>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/my_music_collection"
+        style="@style/CustomTextLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_music_collection" />
+
+    <Button
+        android:id="@+id/upgrade_premium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe_pop_music123"
+        style="@style/CustomTextLarge"/>
+
+</LinearLayout>
